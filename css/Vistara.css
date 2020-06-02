@@ -1,0 +1,104 @@
+
+	body {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		line-height: 1.5em;
+		background-color: #ccffff;
+	}
+	header {
+		background-color: #ff9966;
+		color: #000;
+		padding-top: 3px;
+		padding-bottom: 3px; 
+		border-bottom: #e8491d 3px solid;
+	}
+	.section1 {
+		background-color: #ffcccc;
+	}
+	.section1 {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-top: -21px;
+		margin-bottom: -14px;
+	}
+	.section2 ol li{
+		text-align: center;
+		list-style-type: none;
+		padding-bottom: 2px;
+		color: #ff3300;
+	}
+	.section2 {
+	  display: block; /* the default for span */
+	  border: 3px solid blue;
+	  background-color: #333300;
+	  color: #ffff00;
+	  width: 40%;
+	  margin : auto;
+	}
+	.section3 {
+		background-color: #669999;
+		margin-top: -30px;
+	}
+	.section3 table{
+		display: inline-block;
+		padding: 20px;
+		margin-top: -15px;
+	}
+	.section3 table tbody{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.hint {
+		background-color: #6666ff;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-top: -10px;
+		color: #fff;
+	}
+	.last {
+		background-color: #ff0000;
+		width: 50%;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+	.app a {
+		text-decoration: none;
+		color: #ff0066;
+	}
+	.app a:hover {
+		color: #00cc00;
+  		font-weight:bold;
+	}
+	footer {
+		display: inline-block;
+		background-color: #6600cc;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	@media(max-width: 768px){
+  .section2{
+	width:100%;
+  }
+/*
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }*/
+}
+
+
